@@ -1,0 +1,42 @@
+/* Estilos equivalentes a las clases de Tailwind CSS */
+
+/* Estilo general del contenedor principal */
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Ocultar el textarea */
+  .hidden-textarea {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Estilos del div de visualización de texto */
+  .text-display {
+    min-height: 240px;
+    background-color: #1e1e1e;
+    color: #f1f5f9;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.25rem;
+    min-width: 100%;
+    padding: 20px;
+  }
+
+  .text-display span{
+    border: none;
+  }
+  
+  /* Estilo para cada letra animada */
+  .letter {
+    display: inline-block;
+    margin-right: 2px;
+  }
+  
+  /* Ajuste para nueva línea */
+  .letter.newline {
+    display: inline;
+  }
+  

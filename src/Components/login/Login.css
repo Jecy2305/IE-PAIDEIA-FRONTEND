@@ -1,0 +1,104 @@
+.container__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container__login__main {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 60%;
+  gap: 5rem;
+}
+
+.container__login__form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.container__login__form-texts {
+  text-align: center;
+}
+
+.container__login__form-texts h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.container__login__form-texts p {
+  font-size: 1.2rem;
+}
+
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.form-label {
+  width: 85%;
+  padding: 0.4rem;
+  border: 1px solid hsl(0, 0%, 95%);
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.form-label input {
+  height: 100%;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 95%);
+  outline: none;
+}
+
+.container__login input::placeholder {
+  color: #000;
+}
+
+.formulario-login button {
+  width: 85%;
+  padding: 1rem;
+  border: none;
+  color: #fff;
+  font-size: medium;
+  font-weight: 700;
+  background-color: hsl(26, 64%, 45%);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-login button:hover {
+  background-color: #cc8534;
+}
+
+.container__login__img {
+  width: 50%;
+}
+
+#solImg {
+  position: absolute;
+  top: 600px;
+  left: 0;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

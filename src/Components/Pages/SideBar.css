@@ -1,0 +1,78 @@
+aside{
+    height: 100%;
+    width: 13.2%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem;
+    border-bottom: 1px solid #e4dacd; /*COLOR PARA BORDERS*/
+    gap: 0.5rem;
+    color: #c7781f; /*MARRON PRINCIPAL PARA BOTONES Y BORDER*/
+}
+
+.sidebar-header svg{
+    height: 2rem;
+    width: 2rem;
+}
+
+nav{
+    padding: 1.5rem; 
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: .5rem;
+}
+
+/*li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}*/
+
+.navLink{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.6rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: .95rem;
+}
+
+.navLink svg{
+    height: 1rem;
+    width: 1rem;
+}
+
+.navLink:hover{
+    background-color: #e0cdb8;
+}
+
+.active{
+    color: #fff;
+    background-color: #c7781f;
+}
+
+.active:hover{
+    background-color: #cc8534;
+}
+
+#LogOut{
+    margin-top: 500px;
+}

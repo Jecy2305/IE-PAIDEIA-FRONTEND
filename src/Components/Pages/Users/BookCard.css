@@ -1,0 +1,60 @@
+
+.cardStyle {
+    width: 250px; /* Ajustado para que las tarjetas sean un poco más anchas */
+    padding: 1.5rem;
+    border-radius: 10px; /* Bordes más redondeados */
+    background-color: hsl(30, 80%, 98%);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición de la sombra */
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.cardStyle:hover {
+    transform: scale(1.05); /* Efecto de hover para agrandar la tarjeta ligeramente */
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el ratón */
+}
+
+.imageStyle {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1; /* Mantener la relación de aspecto cuadrada */
+    border-radius: 10px; /* Ajustado para coincidir con los bordes de la tarjeta */
+}
+
+.contentStyle {
+    margin-top: 1.5rem;
+    text-align: center; /* Centramos el contenido */
+}
+
+.titleStyle {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.descriptionStyle {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 0.5rem;
+}
+
+.solicitarButton {
+    background-color: #c7781f;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .solicitarButton:hover {
+    background-color: #cc8534;
+  }
