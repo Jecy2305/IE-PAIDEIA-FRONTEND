@@ -1,4 +1,4 @@
-# React + Vite
+# Proyecto Front-End para la I.E PAIDEI 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
