@@ -1,4 +1,4 @@
-#Proyecto Fullstack con Web API, Entity Framework y React
+Proyecto Fullstack con Web API, Entity Framework y React
 Este proyecto es una aplicación web fullstack desarrollada utilizando tecnologías modernas para la gestión y visualización de datos. Combina una Web API construida con C# y Entity Framework en el backend, junto con un frontend interactivo desarrollado en React.
 
 Características principales:
